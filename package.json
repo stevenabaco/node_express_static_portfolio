@@ -1,0 +1,22 @@
+{
+  "name": "node_express_static_portfolio",
+  "version": "1.0.0",
+  "description": "NodeJS Express Static Portfolio Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenabaco/node_express_static_portfolio.git"
+  },
+  "author": "Steven Abaco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevenabaco/node_express_static_portfolio/issues"
+  },
+  "homepage": "https://github.com/stevenabaco/node_express_static_portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
