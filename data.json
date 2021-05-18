@@ -2,16 +2,16 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "",
-      "description": "",
-      "technologies": "",
-      "live-link": "",
-      "github_link": "",
+      "project_name": "Random Quote Generator",
+      "description": "A simple app generating famouse quotes at a set time interval and when clicked by the user. The background color also changes for each quote. Data is rendered dynamically without reloading the page!",
+      "technologies": [ "Javascript", "HTML", "CSS"],
+      "live-link": "https://stevenabaco.github.io/random-quote-generator/",
+      "github_link": "https://github.com/stevenabaco/random-quote-generator",
       "image_urls": ["", "", "", ""]
     },
       {
-				"id": 0,
-				"project_name": "",
+				"id": 1,
+				"project_name": "Filter & Pagination",
 				"description": "",
 				"technologies": "",
 				"live-link": "",
@@ -19,8 +19,8 @@
 				"image_urls": ["", "", "", ""]
 			},
         {
-					"id": 0,
-					"project_name": "",
+					"id": 2,
+					"project_name": "Interactive Form",
 					"description": "",
 					"technologies": "",
 					"live-link": "",
@@ -28,8 +28,8 @@
 					"image_urls": ["", "", "", ""]
 				},
           {
-						"id": 0,
-						"project_name": "",
+						"id": 3,
+						"project_name": "Game Show App",
 						"description": "",
 						"technologies": "",
 						"live-link": "",
@@ -37,8 +37,8 @@
 						"image_urls": ["", "", "", ""]
 					},
             {
-							"id": 0,
-							"project_name": "",
+							"id": 4,
+							"project_name": "Startup Employee Directory",
 							"description": "",
 							"technologies": "",
 							"live-link": "",
