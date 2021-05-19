@@ -4,11 +4,17 @@ const path = require('path');
 const app = express();
 const data = require('./data.json');
 const port = 3000
-//Setup middleware
+
+// Middleware configutration
 app.set('view engine', 'pug');
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
+// Routing configuration
+const mainRoutes = require('./routes');
+const projectRoutes = require('./routes/projects');
 
+app.use(mainRoutes);
+app.use('/project', projectRoutes);
 
 
 

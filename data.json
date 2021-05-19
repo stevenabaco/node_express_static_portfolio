@@ -1,49 +1,66 @@
 {
-  "projects": [
-    {
-      "id": 0,
-      "project_name": "Random Quote Generator",
-      "description": "A simple app generating famouse quotes at a set time interval and when clicked by the user. The background color also changes for each quote. Data is rendered dynamically without reloading the page!",
-      "technologies": [ "Javascript", "HTML", "CSS"],
-      "live-link": "https://stevenabaco.github.io/random-quote-generator/",
-      "github_link": "https://github.com/stevenabaco/random-quote-generator",
-      "image_urls": ["", "", "", ""]
-    },
-      {
-				"id": 1,
-				"project_name": "Filter & Pagination",
-				"description": "",
-				"technologies": "",
-				"live-link": "",
-				"github_link": "",
-				"image_urls": ["", "", "", ""]
-			},
-        {
-					"id": 2,
-					"project_name": "Interactive Form",
-					"description": "",
-					"technologies": "",
-					"live-link": "",
-					"github_link": "",
-					"image_urls": ["", "", "", ""]
-				},
-          {
-						"id": 3,
-						"project_name": "Game Show App",
-						"description": "",
-						"technologies": "",
-						"live-link": "",
-						"github_link": "",
-						"image_urls": ["", "", "", ""]
-					},
-            {
-							"id": 4,
-							"project_name": "Startup Employee Directory",
-							"description": "",
-							"technologies": "",
-							"live-link": "",
-							"github_link": "",
-							"image_urls": ["", "", "", ""]
-						}
-  ]
+	"projects": [
+		{
+			"id": 0,
+			"project_name": "Startup Employee Directory",
+			"description": "For this project I had to build an app for a fictional company called \"Awesome Startup\". The employees are distributed accross the United States and the company wanted a web app to be able to list all the employees and share contact information with each other. To build the database we had to use a public API to grab the information for 12 random employees, and use that information to build a prototype for the employee directory web app.",
+			"technologies": ["Javascript", "HTML", "CSS"],
+			"live_link": "https://stevenabaco.github.io/public_API_employee_directory/",
+			"github_link": "https://github.com/stevenabaco/public_API_employee_directory",
+			"image_urls": [
+				"../static/images/employeeDirectory1.png",
+				"../static/images/employeeDirectory2.png"
+			]
+		},
+		{
+			"id": 1,
+			"project_name": "Game Show App",
+			"description": "A fun browser based Object Oriented Programing (OOP) Game Show style word guessing game app built with vanilla Javascript. To win a player needs to guess the phrase before they run out of hearts. For every wrong letter a heart is lost. You only have 5 hearts per game.",
+			"technologies": ["Javascript", "HTML", "CSS"],
+			"live_link": "https://stevenabaco.github.io/OOP_Game_Show_App/",
+			"github_link": "https://github.com/stevenabaco/OOP_Game_Show_App",
+			"image_urls": [
+				"../static/images/gameShow1.png",
+				"../static/images/gameShow2.png",
+				"../static/images/gameShow3.png"
+			]
+		},
+		{
+			"id": 2,
+			"project_name": "Interactive Form",
+			"description": "Provides a dynamic sign up form for a Psuedo Conference. The form includes text inputs to allow a user to enter Basic User Info, Selection of a T-shirt, register for an activity and payment information. Includes custom form validation as information is entered.",
+			"technologies": ["Javascript", "HTML", "CSS"],
+			"live_link": "https://stevenabaco.github.io/interactive-form-v3/",
+			"github_link": "https://github.com/stevenabaco/interactive-form-v3",
+			"image_urls": [
+				"../static/images/interactiveForm1.png",
+				"../static/images/interactiveForm2.png"
+			]
+		},
+		{
+			"id": 3,
+			"project_name": "Random Quote Generator",
+			"description": "A simple app generating famous quotes at a set time interval and when clicked by the user. The background color also changes for each quote. Data is rendered dynamically without reloading the page!",
+			"technologies": ["Javascript", "HTML", "CSS"],
+			"live_link": "https://stevenabaco.github.io/random-quote-generator/",
+			"github_link": "https://github.com/stevenabaco/random-quote-generator",
+			"image_urls": [
+				"../static/images/randomquote1.png",
+				"../static/images/randomquote2.png"
+			]
+		},
+		{
+			"id": 4,
+			"project_name": "Pagination & Filtering",
+			"description": "Pulls a list of students from an API with info for each student. The list of students is rendered on the page in a styled card format using just vanilla Javascript. Each page renders only up to 9 students with the pagination options at the bottom of the page. There is also a feature to search the student database to filter out any students not matching what is entered in the search field.",
+			"technologies": ["Javascript", "HTML", "CSS", "API"],
+			"live_link": "https://stevenabaco.github.io/student-pagination-app/",
+			"github_link": "https://github.com/stevenabaco/student-pagination-app",
+			"image_urls": [
+				"../static/images/studentPagination1.png",
+				"../static/images/studentPagination2.png",
+				"../static/images/studentPagination3.png"
+			]
+		}
+	]
 }
