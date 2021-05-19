@@ -16,9 +16,6 @@ const projectRoutes = require('./routes/projects');
 app.use(mainRoutes);
 app.use('/project', projectRoutes);
 
-
-
-
 app.listen(3000, () => {
   console.log(`The app is running on port ${port}`);
 })
