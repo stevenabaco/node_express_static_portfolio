@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
 	if (err.status === 404) {
 		console.log(err.message);
-		res.status(404).render('404', { err });
+		res.status(404).render('page-not-found', { err });
 	} else {
 		err.message = 'Sorry! Looks like something went wrong.';
 		res.render('error', { err });
